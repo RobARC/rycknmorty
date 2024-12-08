@@ -1,0 +1,11 @@
+.btn{
+    padding: 10px 20px;
+    font-size: 1em;
+    width: 150px;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }

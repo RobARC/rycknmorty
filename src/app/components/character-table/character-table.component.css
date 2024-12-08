@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las tarjetas */
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+   
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 150px;
+    background-color: blue;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
